@@ -54,15 +54,20 @@ Para guardar la uniformidad de los archivos, se establecieron los los siguientes
 
 1. Para los títulos se establece una altura de `12.75` que es suficiente para albergar el texto.
 2. Los renglones estandar (campos de llenado), tienen una altura de `12.75` que es suficiente para albergar el texto.
-   >**Es importante mencionar que para mantener las proporciones adecuadas, en los campos que tienen a crecer (Aquellos que describen alguna característica, citas, dispociciones de ley, etc.) hay que multiplicar el número de líneas resultantes por este número**. Ejemplo:
+
+    >**Es importante mencionar que para mantener las proporciones adecuadas, en los campos que tienen a crecer (Aquellos que describen alguna característica, citas, dispociciones de ley, etc.) hay que multiplicar el número de líneas resultantes por este número**.
+
+    Ejemplo:
+
     ![multiple_lines](./images/multiple_lines.png)
+
     En este caso la altura sería calculada por $h=12.75*2, h=25.5$.
 3. Cada sección cuenta con una fila que brinda separación éxtra y marca el final de la misma de `3`.
 4. Antes y después de los títulos, se extablece un espacio para darle realce al mismo de `5`.
 
 ### Ancho de columnas
 
-Para mejorar la apariencia de las tablas que se optó por la conformación de una malla de 64 columnas de un ancho de `1`, es decir, de mantuvo un formato de resolución binaria ($2^6=64$ columnas) con la finalidad de reducir los espacios, flexibilizar el centrado y formato de las tablas, mejorar la visibilidad al momento de combinar celdas, etc.
+Para mejorar la apariencia de las tablas que se optó por la conformación de una malla de 64 columnas de un ancho de `1`, es decir, de mantuvo un formato de resolución binaria ( $2^6=64$ columnas) con la finalidad de reducir los espacios, flexibilizar el centrado y formato de las tablas, mejorar la visibilidad al momento de combinar celdas, etc.
 
 En este sentido, se toma el rango para el área de impresión desde `A` hasta `BL` (`A:BL`), mismo que se considera suficiente como área de trabajo.
 
