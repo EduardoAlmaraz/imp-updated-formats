@@ -13,7 +13,7 @@
     - [Colores de fondo y líneas de contorno](#colores-de-fondo-y-líneas-de-contorno)
       - [Títulos](#títulos)
       - [Cuerpo de la sección](#cuerpo-de-la-sección)
-  - [LLenado de las secciones](#llenado-de-las-secciones)
+  - [Llenado de las secciones](#llenado-de-las-secciones)
     - [Texto Abierto](#texto-abierto)
     - [Listas desplegables](#listas-desplegables)
     - [Calculados](#calculados)
@@ -88,7 +88,7 @@ En cuanto al borde, se mantiene sólido negro de 1 pts para todo el contorno, ec
 
 Para el caso de las tablas, se aplica línea punteada color negro de 1 pts, aplicando el mismo color de fondo a los encabezados que en los [títulos](#títulos).
 
-## LLenado de las secciones
+## Llenado de las secciones
 
 ### Texto Abierto
 
@@ -170,13 +170,18 @@ Cada documento tiene catálogos para las listas desplegables indicado en las hoj
 Para agregar un nuevo item a cualquiera de las listas, siga los siguientes pasos:
 
 1. Seleccionar la hoja de Excel donde se encuentra el catálogo al que se le desea agregar un item.
+
    ![hoja_cat](images/hoja_cat.png)
 2. Ubicar la lista por título.
+
    ![cat](images/cat.png)
 3. Seleccionar el último registro y hacer **Intro**.
+
    ![last_row](images/last_row.png)
 4. Escribir el nuevo elemento y hacer **Intro**.
+
    ![new_cat](images/new_cat.png)
-5. Verificar que en la lista desplegable se muestre la nueva entrda.
+5. Verificar que en la lista desplegable se muestre la nueva entrada.
+
    ![valid](images/valid.png)
 6. Fin del procedimiento.
